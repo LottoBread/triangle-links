@@ -1,8 +1,18 @@
 # Triangle Links changelog
 
-Newest first. This history starts with the Triangle Range prototype in s&box and follows the Unreal port through the Trophy Playtest. Controls and test results belong to the revision where they were reported. Section dates use Pacific time. Published Windows builds are available under Releases.
+Newest first. This history starts with the Triangle Range prototype in s&box and follows the Unreal port through the Moon Playtest. Controls and test results belong to the revision where they were reported. Section dates use Pacific time. Published Windows builds are available under Releases.
 
 ## Unreal Engine playtests
+
+### 2026-11-25 — The Moon
+
+- Added a second nine-hole course from Tranquility Base to Earthrise. Crater bowls and raised rims change how shots land and roll. The minimap outlines the craters, and illuminated markers identify tees and cups.
+- The Moon uses 1.62 m/s² gravity and vacuum ball flight. Full-swing launch speeds are tuned for the lunar course. Jumps, carts, and impact dust also use the lower gravity.
+- Added a star field with Earth above the horizon, regolith and scattered rocks, and hard sunlight with cool fill. A UFO crosses the course periodically.
+- Choose **Play The Moon** in the main menu or select **The Moon** as the multiplayer lobby host.
+
+[Windows Moon Playtest ZIP](https://github.com/LottoBread/triangle-links/releases/tag/playtest-2026-11-25-moon)
+
 
 ### 2026-11-25 — Trophy Hall, menu showcase, and controls
 
@@ -12,7 +22,7 @@ Newest first. This history starts with the Triangle Range prototype in s&box and
 - Added minimap zoom on `[` and `]` and a keybinding editor under **Escape → Settings**. Made HUD text bolder and switched the hole-out callout to scalable text.
 - Verified the archive and rendered the packaged menu with all six trophies loaded. Full-round and live Steam multiplayer testing remained open.
 
-[Windows Trophy Playtest ZIP](../../releases/tag/playtest-2026-11-25-trophy)
+[Windows Trophy Playtest ZIP](https://github.com/LottoBread/triangle-links/releases/tag/playtest-2026-11-25-trophy)
 
 ### 2026-11-24 — Loft, tee order, and cinematic cameras
 
