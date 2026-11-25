@@ -1,8 +1,18 @@
 # Triangle Links changelog
 
-Newest first. This history starts with the Triangle Range prototype in s&box and follows the Unreal port through the Moon Playtest. Controls and test results belong to the revision where they were reported. Section dates use Pacific time. Published Windows builds are available under Releases.
+Newest first. This history starts with the Triangle Range prototype in s&box and follows the Unreal port through the Wind & Ultrawide Playtest. Controls and test results belong to the revision where they were reported. Section dates use Pacific time. Published Windows builds are available under Releases.
 
 ## Unreal Engine playtests
+
+### 2026-11-25 — Wind, ultrawide, and menu redesign
+
+- Removed fixed-aspect framing from the menu and address cameras. Moved the stroke panel to the boundary between the center and right thirds, tightened the horizontal margins, and centered its text.
+- Anchored the loft and aim guide to the ball in the 3D scene. The trace reads from the visible drawing surface, including with display scaling.
+- First Light now has slow wind shifts and occasional gusts that affect airborne shots. Added a windsock at each tee and a wind readout below the minimap. The Moon has no wind.
+- **Play solo** opens the same course picker used by multiplayer hosts. Added redesigned game menus and a tabbed customization screen with direct swatch selection and a live equipment preview.
+
+[Windows Wind & Ultrawide Playtest ZIP](https://github.com/LottoBread/triangle-links/releases/tag/playtest-2026-11-25-wind)
+
 
 ### 2026-11-25 — The Moon
 
