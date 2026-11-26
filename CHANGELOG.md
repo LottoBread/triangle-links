@@ -4,6 +4,21 @@ Newest first. This history starts with the Triangle Range prototype in s&box and
 
 ## Unreal Engine playtests
 
+### 2026-11-26 — Northwood multiplayer hotfix
+
+- Kept the lobby connection open when the host starts a Northwood or Moon round. Both players should use this build before sending a new Steam invite.
+- Recreated the course HUD after travel and preserved player cosmetics and tee order.
+- Fixed garbled text in the course picker, customization swatches, scoring toggle, and Steam lobby messages.
+- Verified two-player local travel to Northwood and the Moon. A live Steam invite still needs a retest.
+
+[Windows Northwood Hotfix](https://github.com/LottoBread/triangle-links/releases/tag/playtest-2026-11-26-northwood-hotfix)
+
+### 2026-11-25 — Northwood
+
+- Added Northwood, a nine-hole, par-36 recreation of Northwood Golf Club in Monte Rio, California. It is available in the solo and multiplayer course pickers.
+- Added wooded fairways, bunkers, level tee boxes, and hand-shaped green contours that affect putting. Elevations and some feature outlines are approximations.
+- Course references are the [Northwood Golf Club scorecard](https://www.northwoodgolf.com/golf-course) and [OpenStreetMap contributors](https://www.openstreetmap.org/copyright).
+
 ### 2026-11-25 — Mixamo golf and locomotion clips
 
 - Replaced the interim walk and run cycles with the supplied Mixamo clips, retargeted in place to the golfer's rig.
