@@ -1,8 +1,19 @@
 # Triangle Links changelog
 
-Newest first. This history starts with the Triangle Range prototype in s&box and follows the Unreal port through the Wind & Ultrawide Playtest. Controls and test results belong to the revision where they were reported. Section dates use Pacific time. Published Windows builds are available under Releases.
+Newest first. This history starts with the Triangle Range prototype in s&box and follows the Unreal port through the supplied Mixamo animation update. Controls and test results belong to the revision where they were reported. Section dates use Pacific time. Archive links open local build files where available.
 
 ## Unreal Engine playtests
+
+### 2026-11-25 — Mixamo golf and locomotion clips
+
+- Replaced the interim walk and run cycles with the supplied Mixamo clips, retargeted in place to the golfer's rig.
+- Added distinct drive, wedge chip, and putt poses. The trace controls the backswing, contact pose, and follow-through. Releasing a putt plays a brief downswing before the ball launches at contact.
+- Replicated the selected club and stroke phase so observers see the corresponding animation. All players should use the same build.
+
+### 2026-11-25 — Golfer locomotion
+
+- Retargeted Mixamo walk and sprint motion to the golfer's existing skeleton. Reworked the arm swing and adjusted foot height for the golfer's proportions.
+- Blended idle, walk, and sprint by movement speed, with a shared stride phase. Address and cart poses now blend with locomotion. The stroke trace still controls the swing pose directly.
 
 ### 2026-11-25 — Wind, ultrawide, and menu redesign
 
@@ -11,7 +22,7 @@ Newest first. This history starts with the Triangle Range prototype in s&box and
 - First Light now has slow wind shifts and occasional gusts that affect airborne shots. Added a windsock at each tee and a wind readout below the minimap. The Moon has no wind.
 - **Play solo** opens the same course picker used by multiplayer hosts. Added redesigned game menus and a tabbed customization screen with direct swatch selection and a live equipment preview.
 
-[Windows Wind & Ultrawide Playtest ZIP](https://github.com/LottoBread/triangle-links/releases/tag/playtest-2026-11-25-wind)
+[Windows Wind & Ultrawide Playtest ZIP](<E:/Unreal/Builds/TriangleLinks-Windows-Wind-Playtest-2026-11-25.zip>)
 
 
 ### 2026-11-25 — The Moon
@@ -21,7 +32,7 @@ Newest first. This history starts with the Triangle Range prototype in s&box and
 - Added a star field with Earth above the horizon, regolith and scattered rocks, and hard sunlight with cool fill. A UFO crosses the course periodically.
 - Choose **Play The Moon** in the main menu or select **The Moon** as the multiplayer lobby host.
 
-[Windows Moon Playtest ZIP](https://github.com/LottoBread/triangle-links/releases/tag/playtest-2026-11-25-moon)
+[Windows Moon Playtest ZIP](<E:/Unreal/Builds/TriangleLinks-Windows-Moon-Playtest-2026-11-25.zip>)
 
 
 ### 2026-11-25 — Trophy Hall, menu showcase, and controls
@@ -32,7 +43,7 @@ Newest first. This history starts with the Triangle Range prototype in s&box and
 - Added minimap zoom on `[` and `]` and a keybinding editor under **Escape → Settings**. Made HUD text bolder and switched the hole-out callout to scalable text.
 - Verified the archive and rendered the packaged menu with all six trophies loaded. Full-round and live Steam multiplayer testing remained open.
 
-[Windows Trophy Playtest ZIP](https://github.com/LottoBread/triangle-links/releases/tag/playtest-2026-11-25-trophy)
+[Windows Trophy Playtest ZIP](<E:/Unreal/Builds/TriangleLinks-Windows-Trophy-Playtest-2026-11-25.zip>)
 
 ### 2026-11-24 — Loft, tee order, and cinematic cameras
 
@@ -42,7 +53,7 @@ Newest first. This history starts with the Triangle Range prototype in s&box and
 - Hold **C** to spectate another player’s ball and press **T** to switch your own shots between chase and a low, long-lens green camera. The ball marker reaches 100 m, points from the screen edge when needed, and disappears within 5 m.
 - The package launched. Tee order, loft, and wedge impact were tested. Camera framing and effects still needed a visual multiplayer test.
 
-Windows Loft Playtest ZIP (historical archive: `TriangleLinks-Windows-Loft-Playtest-2026-11-25.zip`)
+[Windows Loft Playtest ZIP](<E:/Unreal/Builds/TriangleLinks-Windows-Loft-Playtest-2026-11-25.zip>)
 
 ### 2026-11-24 — Clubhouse, cosmetics, and audio
 
@@ -52,7 +63,7 @@ Windows Loft Playtest ZIP (historical archive: `TriangleLinks-Windows-Loft-Playt
 - Slow putts drop into the cup under gravity. Faster balls can rebound against its wall or skip off the lip. The ball marker showed between 5 and 24 m, and the tracer ended at the rendered ball. Added jumping with **Space** on foot.
 - Verified packaged launch, shot distances, and cup behavior. Added future course concepts for the Moon and an asteroid belt.
 
-Windows Clubhouse Playtest ZIP (historical archive: `TriangleLinks-Windows-Clubhouse-Playtest-2026-11-24.zip`)
+[Windows Clubhouse Playtest ZIP](<E:/Unreal/Builds/TriangleLinks-Windows-Clubhouse-Playtest-2026-11-24.zip>) · [Future course notes](<E:/Unreal/TriangleLinks/Future Courses.md>)
 
 ### 2026-11-24 — Lobby screen, scorecard, and course interactions
 
@@ -62,7 +73,7 @@ Windows Clubhouse Playtest ZIP (historical archive: `TriangleLinks-Windows-Clubh
 - Added air drag and slope-adjusted launch angles. Cup lip behavior lets fast putts pop out. Tree canopies and bushes slow the ball as it passes through them, and trunks block players and carts.
 - Local two-client tests passed lobby transition, remote aim posing, and trunk collision. Steam invites were wired up, with two-account invite acceptance still open.
 
-Windows Lobby Playtest ZIP (historical archive: `TriangleLinks-Windows-Lobby-Playtest-2026-11-24.zip`)
+[Windows Lobby Playtest ZIP](<E:/Unreal/Builds/TriangleLinks-Windows-Lobby-Playtest-2026-11-24.zip>)
 
 ### 2026-11-24 — Multiplayer synchronization, carts, and consumables
 
@@ -72,14 +83,14 @@ Windows Lobby Playtest ZIP (historical archive: `TriangleLinks-Windows-Lobby-Pla
 - **G** drinks and **H** smokes. Smoking is cosmetic. Drinking progressively affects the view, swings, putts, and steering.
 - The package passed a local multiplayer join test. This revision still needed a two-machine Steam test.
 
-Windows Multiplayer Playtest ZIP (historical archive: `TriangleLinks-Windows-Multiplayer-Playtest-2026-11-24.zip`)
+[Windows Multiplayer Playtest ZIP](<E:/Unreal/Builds/TriangleLinks-Windows-Multiplayer-Playtest-2026-11-24.zip>)
 
 ### 2026-11-24 — Steam lobby integration
 
 - Added Steam networking and lobby discovery for up to four players with the Spacewar test app ID `480`. Steam lobby joins use the in-game list.
 - The host successfully advertised a First Light lobby. A subsequent player report confirmed the Steam lobby worked with a friend, and identified the multiplayer issues addressed by the next patch.
 
-Windows Steam Playtest ZIP (historical archive: `TriangleLinks-Windows-Steam-Playtest-2026-11-24.zip`)
+[Windows Steam Playtest ZIP](<E:/Unreal/Builds/TriangleLinks-Windows-Steam-Playtest-2026-11-24.zip>)
 
 ### 2026-11-24 — Cart and ball physics
 
@@ -88,14 +99,14 @@ Windows Steam Playtest ZIP (historical archive: `TriangleLinks-Windows-Steam-Pla
 - Made bounce depend on surface and impact angle, and let the ball lift off hill crests. Increased green resistance and differentiated fairway and rough. At the same test speed the ball rolled 24 m on the fairway and 12 m in rough.
 - Verified the Windows package launched into First Light.
 
-Windows Physics Playtest ZIP (historical archive: `TriangleLinks-Windows-Physics-Playtest-2026-11-24.zip`)
+[Windows Physics Playtest ZIP](<E:/Unreal/Builds/TriangleLinks-Windows-Physics-Playtest-2026-11-24.zip>)
 
 ### 2026-11-24 — First standalone Windows playtest
 
 - Packaged the game with the required Visual C++ runtime. Players could extract the ZIP and run `TriangleLinks.exe`.
 - Verified the main menu, First Light with the new foliage and materials, and a registered putt.
 
-First Windows Playtest ZIP (historical archive: `TriangleLinks-Windows-Playtest-2026-11-24.zip`)
+[First Windows Playtest ZIP](<E:/Unreal/Builds/TriangleLinks-Windows-Playtest-2026-11-24.zip>)
 
 ### 2026-11-24 — Foliage and material pass
 
@@ -103,7 +114,7 @@ First Windows Playtest ZIP (historical archive: `TriangleLinks-Windows-Playtest-
 - Added mowing stripes, blade texture, and turf relief. Updated bark, foliage, golfer, cart, flag, ball, and club materials.
 - Played through to West Bend to check foliage updates and grounding.
 
-
+[Editable foliage models](<E:/Unreal/TriangleLinks/Art/TriangleLinksFoliage.blend>)
 
 ### 2026-11-24 — Playable loop, menu, and direct IP multiplayer
 
@@ -118,7 +129,7 @@ First Windows Playtest ZIP (historical archive: `TriangleLinks-Windows-Playtest-
 - Imported the textured golfer and skeleton and cart with four separate wheels. The First Light preview had sloped terrain, four grass zones, and tee and pin collision. Play subsequently possessed the textured, animated golfer.
 - The editor preview and native gameplay were brought up in stages while the Windows C++ toolchain was being set up.
 
-
+[Unreal project](<E:/Unreal/TriangleLinks/TriangleLinks.uproject>)
 
 ## s&box prototype
 
@@ -164,7 +175,7 @@ First Windows Playtest ZIP (historical archive: `TriangleLinks-Windows-Playtest-
 - Address preserved the direction you were already looking. **A/D** ramped from fine adjustments to 30° per second. The cart accelerated harder and reached about 122 km/h on the fairway in testing.
 - A second local client verified the lobby and scorecard. The ZIP runs in the s&box editor.
 
-s&box dev playtest ZIP (historical archive: `Triangle Links - sbox dev playtest.zip`)
+[s&box dev playtest ZIP](<C:/Users/strin/Documents/S&box Projects/golf_tech_demo/Exports/Triangle Links - sbox dev playtest.zip>)
 
 ### 2026-11-22 — Cart movement and shot follow fixes
 
